@@ -9,11 +9,8 @@ var EmployeeSchema = new Schema({
     manager: {type: String, required: true}
 });
 
-/* Virtual for this book instance URL.
-BookSchema
-.virtual('url')
-.get(function () {
-  return '/catalog/book/'+this._id;
+/* Virtual for this  instance URL.
+not used atm
 });*/
 
 // Export model.
